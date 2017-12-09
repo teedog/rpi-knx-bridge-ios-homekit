@@ -41,8 +41,12 @@ Quelle: [linuxundich.de](https://linuxundich.de/raspberry-pi/ssh-auf-dem-raspber
 
 1. Jetzt sollte die Verbindung per SSH möglich sein. Unter Windows wird `putty` benötigt um eine SSH-Verbindung aufzubauen. Das Programm gibt es auf der [Putty Download Seite](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Zum derzeitigen Zeitpunkt ist die Version `putty-64bit-0.70-installer.msi` aktuell.
 2. Nach der Installation PuTTY starten und als `Host Name` die Eingabe `pi@IP-ADRESSE` verwenden, also im oberen Beispiel `pi@169.254.213.122`.
+
+
   ![PuTTY](putty.gif)  
   Quelle: [snapfiles.com](http://www.snapfiles.com/screenshots/putt.htm)
+  
+  
 3. Es folgt eine Frage, ob dem Host zu vertrauen ist. Diese bitte bestätigen.
 4. Danach folgt die Passwort-Abfrage. Das Standard-Passwort nach Neuinstallationen lautet `raspberry`. 
 5. Um den Raspberry abzusichern, sollte nach dem Login das Passwort geändert werden. Dieses funktioniert unter Linux mit einem einfachen `passwd`
